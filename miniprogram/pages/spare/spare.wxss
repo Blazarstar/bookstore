@@ -1,0 +1,26 @@
+/* miniprogram/pages/spare/spare.wxss */
+
+.book_spare {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.book_spare_a{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.image-group {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 30rpx;
+}
+
+.image-group image {
+  display: inline-block;
+  width: 300rpx;
+  height: 290rpx;
+  margin-right: 20rpx;
+}
