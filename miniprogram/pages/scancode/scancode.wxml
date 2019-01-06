@@ -1,0 +1,9 @@
+<van-row gutter="20">
+    <van-col span="8" offset="8">
+    <van-button type="primary" bind:click="scanCode">扫码加书</van-button>
+    </van-col>
+</van-row>
+
+/*
+这里用了vant的组件，也可以用微信里的button组件，在wxss中对button设置格式。
+*/
