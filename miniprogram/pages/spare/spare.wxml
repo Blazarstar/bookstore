@@ -1,0 +1,45 @@
+<!--miniprogram/pages/spare/spare.wxml-->
+//此处我做了滚动展示，排版可以随自己的喜好，比如设置幻灯片再加一些读书笔记什么的都可以
+ <view class="book_spare">
+     <text>{{'新书推荐'}}</text>
+  </view>   
+<scroll-view class="image-group" scroll-x="true">
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+</scroll-view>
+ 
+ <view class="book_spare_a">
+     <text>{{'经典丛书'}}</text>
+  </view>   
+  <scroll-view class="image-group" scroll-x="true">
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image
+</scroll-view>
+
+<view class="book_spare">
+     <text>{{'青春文学'}}</text>
+  </view>   
+  <scroll-view class="image-group" scroll-x="true">
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image
+</scroll-view>
+
+<view class="book_spare">
+     <text>{{'悬疑小说'}}</text>
+  </view>   
+  <scroll-view class="image-group" scroll-x="true">
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image>
+   <image src="........."></image
+  </scroll-view>
