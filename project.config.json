@@ -1,0 +1,60 @@
+//注意：每个人的appid是不一样的
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx1bc38d89c3e78198",
+	"projectname": "booksr",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "scanCode",
+					"pathName": "pages/scanCode/scanCode",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "bookDetail",
+					"pathName": "pages/bookDetail/bookDetail",
+					"query": "id=W35bTSGodpkt_1Un"
+				},
+				{
+					"id": -1,
+					"name": "scanCode",
+					"pathName": "pages/bookDetail/bookDetail",
+					"query": "pages/bookDetail/bookDetail"
+				}
+			]
+		}
+	}
+}
