@@ -10,6 +10,6 @@ I also recommand some types of books for you.
       
 ![image](https://github.com/Blazarstar/bookstore/blob/master/images/book.PNG)
 
-#The flowing is part of miniprogram
+
 
 
