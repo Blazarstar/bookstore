@@ -1,0 +1,42 @@
+//此处可以设置TabBar,图片推荐阿里的icon库https://www.iconfont.cn/
+{
+  "pages": [
+    "pages/index/index",
+    "pages/scanCode/scanCode",
+    "pages/bookDetail/bookDetail",
+    "pages/images/images",
+    "pages/spare/spare"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00CC99",
+    "navigationBarTitleText": "Blazar的小书柜",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#666699",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/spare/spare",
+        "text": "新书推荐",
+        "iconPath": "pages/images/icon_booka.png",
+        "selectedIconPath": "pages/images/icon_booka.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的书柜",
+        "iconPath": "pages/images/icon_book.png",
+        "selectedIconPath": "pages/images/icon_book.png"
+      },
+      {
+        "pagePath": "pages/scanCode/scanCode",
+        "text": "扫码加书",
+        "iconPath": "pages/images/icon_ma.png",
+        "selectedIconPath": "pages/images/icon_ma.png"
+      }
+    ]
+  }
+}
